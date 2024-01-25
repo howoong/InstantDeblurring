@@ -1,20 +1,6 @@
-<p>
-  <!-- pypi-strip -->
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/3310961/199083722-881a2372-62c1-4255-8521-31a95a721851.png" />
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/3310961/199084143-0d63eb40-3f35-48d2-a9d5-78d1d60b7d66.png" />
-  <!-- /pypi-strip -->
-  <img alt="nerfacc logo" src="https://user-images.githubusercontent.com/3310961/199084143-0d63eb40-3f35-48d2-a9d5-78d1d60b7d66.png" width="350px" />
-  <!-- pypi-strip -->
-  </picture>
-  <!-- /pypi-strip -->
-</p>
+# Instant Deblurring
 
-[![Core Tests.](https://github.com/KAIR-BAIR/nerfacc/actions/workflows/code_checks.yml/badge.svg)](https://github.com/KAIR-BAIR/nerfacc/actions/workflows/code_checks.yml)
-[![Documentation Status](https://readthedocs.com/projects/plenoptix-nerfacc/badge/?version=latest)](https://www.nerfacc.com/en/latest/?badge=latest)
-[![Downloads](https://pepy.tech/badge/nerfacc)](https://pepy.tech/project/nerfacc)
-
-https://www.nerfacc.com/
+Our code is based on NerfAcc (https://github.com/nerfstudio-project/nerfacc).
 
 [News] 2023/04/04. If you were using `nerfacc <= 0.3.5` and would like to migrate to our latest version (`nerfacc >= 0.5.0`), Please check the [CHANGELOG](CHANGELOG.md) on how to migrate.
 
