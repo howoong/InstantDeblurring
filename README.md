@@ -12,6 +12,8 @@ Our code is based on NerfAcc (https://github.com/nerfstudio-project/nerfacc).
 ![005](https://github.com/howoong/InstantDeblurring/assets/68628830/bdb8db2f-4a68-4e04-8e61-195ca1b7c38f)
 ![006](https://github.com/howoong/InstantDeblurring/assets/68628830/7e87d897-ccdf-4e55-9c8f-3686f78467f4)
 
+# Nerfacc
+
 [News] 2023/04/04. If you were using `nerfacc <= 0.3.5` and would like to migrate to our latest version (`nerfacc >= 0.5.0`), Please check the [CHANGELOG](CHANGELOG.md) on how to migrate.
 
 NerfAcc is a PyTorch Nerf acceleration toolbox for both training and inference. It focus on
@@ -219,13 +221,3 @@ bash script.sh nerfsyn-nerfacc-occgrid 0
     If you are installing a pre-built wheel, make sure the Pytorch and CUDA version matchs with the nerfacc version (nerfacc.__version__).
 </details>
 
-## Citation
-
-```bibtex
-@article{li2023nerfacc,
-  title={NerfAcc: Efficient Sampling Accelerates NeRFs.},
-  author={Li, Ruilong and Gao, Hang and Tancik, Matthew and Kanazawa, Angjoo},
-  journal={arXiv preprint arXiv:2305.04966},
-  year={2023}
-}
-```
